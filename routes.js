@@ -5,6 +5,7 @@ const homeController = require('./src/controllers/homeController');
 const loginController = require('./src/controllers/loginController');
 const cadastroController = require('./src/controllers/cadastroController');
 const contatoController = require('./src/controllers/contatoController');
+const sobreController = require('./src/controllers/sobreController');
 
 const { loginRequired } = require('./src/middleware/middleware');
 
