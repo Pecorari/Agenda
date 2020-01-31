@@ -27,4 +27,7 @@ route.get('/contato/:id', loginRequired, contatoController.editRegister);
 route.post('/contato/edit/:id', loginRequired, contatoController.edit);
 route.get('/contato/delete/:id', loginRequired, contatoController.delete);
 
+// Sobre
+route.get('/sobre', sobreController.index);
+
 module.exports = route;
